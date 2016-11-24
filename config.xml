@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.helloworld"
+        version   = "1.0.0">
+        <name>SSMTY</name>
+		<description>Aplicación dedicada para presentar información referente al servicio social por parte del Tecnologico de Monterrey Campus Monterrey</description>
+        <author>Francisco Luna email="A01700869@itesm.mx"</author>
+		<content src="index.html"/>
+		<access origin="*" onlyInBrowser="true" /
+           <preference name="permissions"                value="none"/>
+           <feature name="http://api.phonegap.com/1.0/network" />
+		   <feature name="http://api.phonegap.com/1.0/device"/>
+ <icon src="images/App.png" alt="img"  />
+	 </widget>
